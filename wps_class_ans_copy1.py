@@ -32,7 +32,7 @@ class Pokemon:
         else:
             tmp = []
             [tmp.append(i.name) for i in self.friends ]
-            print('피카츄의 친구들 : {friends} ({cnt}마리)'.format(                    friends=", ".join(tmp),                    cnt=len(tmp)))
+            print('피카츄의 친구들 : {friends} ({cnt}마리)'.format(friends=", ".join(tmp), cnt=len(tmp)))
     
     @classmethod
     def show_total_pokemon(cls):
@@ -41,7 +41,7 @@ class Pokemon:
         else:
             tmp = []
             [tmp.append(i.name) for i in cls.POKEMON_LIST ]
-            print('전체 포켓몬 : {friends} ({cnt}마리)'.format(                    friends=", ".join(tmp),                    cnt=len(tmp)))
+            print('전체 포켓몬 : {friends} ({cnt}마리)'.format(friends=", ".join(tmp), cnt=len(tmp)))
     
 
 
