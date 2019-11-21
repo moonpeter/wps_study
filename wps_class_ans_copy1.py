@@ -6,7 +6,7 @@
 # In[98]:
 
 
-class Pokemon:
+class 포켓몬:
     POKEMON_LIST = []
     
     def __init__(self, name, nature):
