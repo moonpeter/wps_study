@@ -35,7 +35,7 @@ class Pokemon:
             print('피카츄의 친구들 : {friends} ({cnt}마리)'.format(friends=", ".join(tmp), cnt=len(tmp)))
     
     @classmethod
-    def show_total_pokemon(cls):
+    def show_total_pokemonmonmonmon(cls):
         if len(cls.POKEMON_LIST) == 0:
             print("포켓몬이 없습니다...")
         else:
